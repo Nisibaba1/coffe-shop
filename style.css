@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('background.webp');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.nav-bar .title {
+    color: #fff;
+    font-size: 67px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+span {
+    color: crimson;
+}
+
+.nav-bar p {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: .4s ease;
+}
+
+.menu li a:hover {
+    color: crimson;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+}
+.menu a.active{
+    color: red;
+}
+
+.home {
+    height: 500px;
+    padding-right: 300px;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.title-1 {
+    font-size: 56px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.home p {
+    color: lemonchiffon;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.home button {
+    height: 40px;
+    color: #fff;
+    background: crimson;
+    font-size: 22px;
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+.home button:hover {
+    background: none;
+    border: 2px solid crimson;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.contenair2{
+    width: 100%;
+    height: 100vh;
+    background:black;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+.h1{
+    color: #fff;
+}
+.ul{
+    color: #fff;
+}
+.ul li{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.divi1{
+    margin-top: 100px;
+    margin-left: 550px;
+}
+.h2{
+    margin-top: 50px;
+    color: #fff;
+}
+.container-3{
+    height: 100vh;
+    width: 100%;
+    background: black;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.d2{
+    background-color: black;
+    color: #fff;
+}
+.d3{
+    height: 70px;
+    width: 650px;
+    margin-left: 750px;
+    margin-top: 200px;
+    color: #fff;
+}
+.p1{
+    font-size:20px;
+}
+.h6{
+    font-size: 35px;
+}
+.d3 button {
+    height: 40px;
+    color: #fff;
+    background: crimson;
+    font-size: 22px;
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+button:hover {
+    background: none;
+    border: 2px solid crimson;
+}
+.d4{
+    width: 500px;
+    height: 300px;
+    margin-left: 150px;
+}
+.img1{
+    width: 500px;
+    height: 300px;
+}
+
+.body{
+    font-family: 'Outfit';
+    background: black;
+}
+.contact-contanier{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -60px;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title .h2{
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #a363aa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.contact-inputs textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-left .button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+}
+.contact-right img{
+    width: 500px;
+}
